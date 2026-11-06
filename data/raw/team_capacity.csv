@@ -1,0 +1,13 @@
+scenario_id,capacity_id,team_id,increment,available_capacity,planned_effort,unit
+S01,CAP-S01-PAY,TEAM-PAY,PI-TEST-01,20,10,story_points
+S01,CAP-S01-ID,TEAM-ID,PI-TEST-01,10,0,story_points
+S02,CAP-S02-PAY,TEAM-PAY,PI-TEST-02,30,9,story_points
+S02,CAP-S02-ID,TEAM-ID,PI-TEST-02,10,0,story_points
+S02,CAP-S02-NOT,TEAM-NOT,PI-TEST-02,10,0,story_points
+S03,CAP-S03-PAY,TEAM-PAY,PI-TEST-03,10,12,story_points
+S04,CAP-S04-PAY,TEAM-PAY,PI-TEST-04,10,4,story_points
+S05,CAP-S05-PAY,TEAM-PAY,PI-TEST-05,10,5,story_points
+S06,CAP-S06-PAY,TEAM-PAY,PI-TEST-06,20,7,story_points
+S06,CAP-S06-ID,TEAM-ID,PI-TEST-06,10,5,story_points
+S07,CAP-S07-PAY,TEAM-PAY,PI-TEST-07,20,10,story_points
+S07,CAP-S07-ID,TEAM-ID,PI-TEST-07,10,6,story_points

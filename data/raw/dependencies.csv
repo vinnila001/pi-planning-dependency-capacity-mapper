@@ -1,0 +1,13 @@
+scenario_id,dependency_id,source_feature_id,target_feature_id,dependency_type,status,description
+S01,DEP-S01-01,F-S01-A,F-S01-B,blocks,unresolved,Checkout requires payment confirmation
+S01,DEP-S01-02,F-S01-B,F-S01-A,blocks,unresolved,Payment confirmation requires checkout
+S02,DEP-S02-01,F-S02-A,F-S02-B,blocks,unresolved,Cart requires pricing
+S02,DEP-S02-02,F-S02-B,F-S02-C,blocks,unresolved,Pricing requires discounts
+S02,DEP-S02-03,F-S02-C,F-S02-A,blocks,unresolved,Discounts require cart context
+S05,DEP-S05-01,F-S05-A,F-S05-MISSING,blocks,unresolved,Reference intentionally missing from fixture
+S06,DEP-S06-01,F-S06-A,F-S06-B,blocks,acknowledged,Checkout requires customer login
+S06,DEP-S06-02,F-S06-A,F-S06-D,enables,acknowledged,Checkout uses notification template
+S06,DEP-S06-03,F-S06-C,F-S06-D,enables,acknowledged,Order confirmation uses notification template
+S07,DEP-S07-01,F-S07-A,F-S07-B,blocks,acknowledged,Checkout requires customer login
+S07,DEP-S07-02,F-S07-A,F-S07-C,blocks,acknowledged,Checkout requires inventory reservation
+S07,DEP-S07-03,F-S07-A,F-S07-D,coordinates,acknowledged,Checkout requires tax calculation

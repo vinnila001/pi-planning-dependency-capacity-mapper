@@ -1,0 +1,13 @@
+scenario_id,team_id,name,capacity_id,active
+S01,TEAM-PAY,Payments,CAP-S01-PAY,true
+S01,TEAM-ID,Identity,CAP-S01-ID,true
+S02,TEAM-PAY,Payments,CAP-S02-PAY,true
+S02,TEAM-ID,Identity,CAP-S02-ID,true
+S02,TEAM-NOT,Notifications,CAP-S02-NOT,true
+S03,TEAM-PAY,Payments,CAP-S03-PAY,true
+S04,TEAM-PAY,Payments,CAP-S04-PAY,true
+S05,TEAM-PAY,Payments,CAP-S05-PAY,true
+S06,TEAM-PAY,Payments,CAP-S06-PAY,true
+S06,TEAM-ID,Identity,CAP-S06-ID,true
+S07,TEAM-PAY,Payments,CAP-S07-PAY,true
+S07,TEAM-ID,Identity,CAP-S07-ID,true

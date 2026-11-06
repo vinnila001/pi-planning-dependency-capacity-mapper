@@ -1,0 +1,17 @@
+scenario_id,feature_id,name,team_id,estimate,status,description
+S01,F-S01-A,Checkout,TEAM-PAY,5,planned,Two-feature cycle member A
+S01,F-S01-B,Payment Confirmation,TEAM-PAY,5,planned,Two-feature cycle member B
+S02,F-S02-A,Cart,TEAM-PAY,3,planned,Three-feature cycle member A
+S02,F-S02-B,Pricing,TEAM-PAY,3,planned,Three-feature cycle member B
+S02,F-S02-C,Discounts,TEAM-PAY,3,planned,Three-feature cycle member C
+S03,F-S03-A,Large Checkout,TEAM-PAY,12,planned,Consumes 120 percent of team capacity
+S04,F-S04-A,Small Checkout,TEAM-PAY,4,planned,Consumes 40 percent of team capacity
+S05,F-S05-A,Order Confirmation,TEAM-PAY,5,planned,Has an unresolved predecessor reference
+S06,F-S06-A,Checkout,TEAM-PAY,5,planned,Depends on Identity and Notifications
+S06,F-S06-B,Customer Login,TEAM-ID,3,planned,Normal cross-team predecessor
+S06,F-S06-C,Order Confirmation,TEAM-PAY,2,planned,Normal cross-team predecessor
+S06,F-S06-D,Notification Template,TEAM-ID,2,planned,Second cross-team predecessor
+S07,F-S07-A,Checkout,TEAM-PAY,8,planned,Has multiple predecessors
+S07,F-S07-B,Customer Login,TEAM-ID,3,planned,First predecessor
+S07,F-S07-C,Inventory Reservation,TEAM-ID,3,planned,Second predecessor
+S07,F-S07-D,Tax Calculation,TEAM-PAY,2,planned,Third predecessor
